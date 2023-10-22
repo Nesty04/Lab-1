@@ -58,7 +58,7 @@ END = '\u001b[0m'
 #         for num_str in fh:
 #             num = float(num_str)
 #             if num > 0:
-#                 if num != float(5):
+#                 if num != 5:
 #                     result.append(num)
 #         return result
     
