@@ -1,6 +1,7 @@
 RED = '\u001b[41m'
 BLUE = '\u001b[44m'
 WHITE = '\u001b[47m'
+BLACK = '\u001b[30m'
 END = '\u001b[0m'
 
 # def draw_flag():
@@ -13,6 +14,24 @@ END = '\u001b[0m'
 #       print(f'{BLUE}{"  " * 16}{END}')
 
 # print(draw_flag())
+
+
+# def task_2():
+#     back_gr = 0
+#     for i in range(5):
+#         back_gr += 1
+#         if i < 2:
+#             print(f'{WHITE}{"  " * (4 - i)}{RED}{"  " * back_gr}{RED}{"  " * i}{WHITE}{"  " * (9 - (5 + i))}{END}')
+#         elif i < 3:
+#             pict = 1
+#             print(f'{WHITE}{"  " * (4 - i)}{RED}{"  " * (back_gr - 1)}{WHITE}{"  " * pict}{RED}{"  " * i}{WHITE}{"  " * (9 - (5 + i))}{END}')
+#         elif i < 4:
+#             pict += 2
+#             print(f'{WHITE}{"  " * (4 - i)}{RED}{"  " * (back_gr - 2)}{WHITE}{"  " * pict}{RED}{"  " * (i - 1)}{WHITE}{"  " * (9 - (5 + i))}{END}')
+#         else:
+#             print(f'{RED}{"  " * 2}{WHITE}{"  " * 5}{RED}{"  " * 2}{END}')
+
+# print(task_2())
 
 
 # plot_list = [[0 for i in range(10)] for i in range(10)]
