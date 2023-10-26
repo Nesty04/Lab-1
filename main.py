@@ -33,43 +33,35 @@ END = '\u001b[0m'
 
 # print(task_2())
 
+# def task_3():
+#     plot_list = [[0 for i in range(9)] for i in range(9)]
+#     result_x = [0.1, 0.2, 0.25, 0.5, 1, 2, 4, 5, 10]
+#     result_y = [10, 5, 4, 2, 1, 0.5, 0.25, 0.2, 0.1]
 
-# plot_list = [[0 for i in range(10)] for i in range(10)]
-# result = [0 for i in range(10)]
+#     for i in range(9):
+#         for j in range(9):
+#             if result_x[i] == 1 / result_y[j]:
+#                 plot_list[i][j] = 1
 
-# for i in range(10):
-#     result[i] = i ** 3
+#     for i in range(9):
+#         line = ''
+#         for j in range(9):
+#             if plot_list[i][j] == 0:
+#                 if (i == 3 and j == 2) or (i == 4 and j == 3) or (i == 5 and j == 4):
+#                     line += '!'
+#                 else:
+#                     line += '__'
+#             else:
+#                 if (i == 3 and j == 3) or (i == 4 and j == 4) or (i == 5 and j == 5):
+#                     line += '!!'
+#                 else:
+#                     line += '!!!'
+#         if i <= 5 and i >= 3:
+#             line += '__'
+#         print(line)
 
-# step = round(abs(result[0] - result[9]) / 9, 2)
-# print(step)
+# print(task_3())
 
-# for i in range(10):
-#     for j in range(10):
-#         if j == 0:
-#             plot_list[i][j] = step * (8-i) + step
-
-# for i in range(9):
-#     for j in range(10):
-#         if abs(plot_list[i][0] - result[9 - j]) < step:
-#             for k in range(9):
-#                 if 8 - k == j:
-#                     plot_list[i][k+1] = 1
-
-# for i in range(9):
-#     line = ''
-#     for j in range(10):
-#         if j == 0:
-#             line += '\t' + str(int(plot_list[i][j])) + '\t'
-#         if plot_list[i][j] == 0:
-#             line += '--'
-#         if plot_list[i][j] == 1:
-#             line += '!!'
-#     print(line)
-# print('\t0\t1 2 3 4 5 6 7 8 9')
-
-# for i in range(10):
-#     #print(plot_list[i])
-#     pass
 
 # def task_4():
 #     with open('sequence.txt') as fh:
